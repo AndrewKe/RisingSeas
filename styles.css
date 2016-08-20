@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica
+}
+
+.white {
+  color: white;
+  size:10;
+}
+
+#container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%
+}
+
+.green {
+  color: green;
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.red {
+  color: red;
+  font-size: 2em;
+}
+
+#map {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+#map-box {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  justify-content: center;
+}
+#info {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+#red-right {
+  margin-left: 20px;
+}
+#globe {
+  margin: 10px;
+}
+#current_alt {
+  font-size: 3em;
+}
+
+#year {
+  font-size: 2em;
+  color: white;
+}
+
+#safe {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#fail {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

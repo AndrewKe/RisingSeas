@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+	<div id = "container">
+		<h1 class = "white">Rising Seas</h1>
+
+		<img id = "globe" src = "./red.png" width = 80>
+		<div>
+			<span class = "white"> 0 ft </span>
+			<input type="range" name="points" id="yearSlider" value="0" min="0" max="120">
+			<span class = "white"> 100 ft </span>
+		</div>
+
+		<b id = "year" class = "white">-</b></br>
+
+
+		<span id = "lat" class = "white"></span><span id = "long" class = "white"></span>
+		<iframe
+		id = "map"
+		width="600"
+		height="450"
+		frameborder="0" style="border:0"
+		src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAuUqtxrPtu61EqJ14YwvPZCqX2f3tT8A8&center=-33.8569,151.2152&zoom=18&maptype=satellite" allowfullscreen>
+		</iframe>
+
+		<div id = "current_alt" class = "white"></div>
+
+
+
+	<div id = "safe">
+		<img src = "https://media.giphy.com/media/3o7TKE1lVWG79NwrAI/giphy.gif"/>
+		<div class = "green">You're safe! :)</div>
+	</div>
+
+	<div id = "fail">
+		<img src = "http://i.giphy.com/3oEjI5P7RD2we6odZC.gif"/>
+		<div>
+			<div id = "red-right">
+				<div class = "red">Looks like you'll be underwater :(</div>
+				<a href = "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" class = "white">Dive in to a good book to get you in the mood!</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
